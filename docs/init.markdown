@@ -38,8 +38,6 @@ Phases of: `"willDisplay"`, `"didDisplay"`, `"closed"`, `"clicked"`, `"cached"`,
     -- Initialize the Chartboost library
     chartboost.init(
     {
-        licenseKey = "Insert_Your_License_Key_Here",
-        testMode = true,
         appID = "app_ID_generated_from_chartboost_here",
         appSignature = "app_signature_generated_from_chartboost_here",  
         listener = function( event )
