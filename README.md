@@ -38,11 +38,18 @@ This is the source code to the Corona Chartboost plugin for iOS and Android. If 
 Plugin Docs:
 
 [Overview](https://github.com/GremlinInteractive/CoronaChartboostPlugin/tree/master/docs/overview.markdown)
+
 [Setup](https://github.com/GremlinInteractive/CoronaChartboostPlugin/tree/master/docs/setup.markdown)
+
 [Init](https://github.com/GremlinInteractive/CoronaChartboostPlugin/tree/master/docs/init.markdown)
+
 [Cache](https://github.com/GremlinInteractive/CoronaChartboostPlugin/tree/master/docs/cache.markdown)
+
 [Show](https://github.com/GremlinInteractive/CoronaChartboostPlugin/tree/master/docs/show.markdown)
+
 [StartSession](https://github.com/GremlinInteractive/CoronaChartboostPlugin/tree/master/docs/startSession.markdown)
+
 [HasCachedInterstitial](https://github.com/GremlinInteractive/CoronaChartboostPlugin/tree/master/docs/hasCachedInterstitial.markdown)
+
 [HasCachedMoreApps](https://github.com/GremlinInteractive/CoronaChartboostPlugin/tree/master/docs/hasCachedMoreApps.markdown)
 
