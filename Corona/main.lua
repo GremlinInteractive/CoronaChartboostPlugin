@@ -36,14 +36,14 @@ local function chartBoostListener( event )
 end
 
 -- Your ChartBoost app id
-local yourAppID = "5390eaf1c26ee44a782d8cfb";
+local yourAppID = "";
 -- Your ChartBoost app signature
-local yourAppSignature = "0a25ed7f7c06823d8352d781560bdebd4ef12ae4";
+local yourAppSignature = "";
 
 -- Change the appid/sig for android (required by Chartboost)
 if system.getInfo( "platformName" ) == "Android" then
-	yourAppID = "53c6c46d1873da2b3649c698";
-	yourAppSignature = "e2b1d94a784ffe0a70ccff98aed3cdd520fac3e4";
+	yourAppID = "";
+	yourAppSignature = "";
 end
 
 print( "plugin version is: ", chartboost.getPluginVersion() );
