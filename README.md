@@ -27,6 +27,8 @@ Corona Chartboost Plugin
 It is provided "as is" in hopes of serving as a useful learning tool for budding Corona plugin developers.
 We provide no support whatsoever in regards to this plugin source code, nor the plugin itself.
 
+For building instructions, please refer to Corona's documentation. 
+
 You may do as you wish with this code, we hope it is useful.
 
 -----------------------------
