@@ -1,0 +1,30 @@
+<h4>Overview</h4>
+
+<p>Shows a Chartboost interstitial or more apps screen.</p>
+
+<h2>Syntax</h2>
+
+`````
+chartboost.show( adType, namedLocation )
+`````
+
+<p>This function takes two arguments:</p>
+
+<h5>adType - (required)</h5>
+
+<p><em><a href="">String</a>.</em> The type of advertisement to show. Valid vales are <code>"interstitial"</code> and <code>"moreApps"</code></p>
+
+<h5>namedLocation - (optional)</h5>
+
+<p><em><a href="">String</a>.</em> The name of the cached advertisement location. See chartboost.cache() for more information.</p>
+
+<b><h4>Example</h4></b>
+
+	-- Require the Chartboost library
+	local chartboost = require( "plugin.chartboost" )
+
+	-- Show an interstitial
+	chartboost.show( 'interstitial' )
+
+	-- Show a more apps screen
+	chartboost.show( 'moreApps' )

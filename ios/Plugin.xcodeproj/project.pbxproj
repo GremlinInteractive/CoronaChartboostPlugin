@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30133CC2191A415A00328863 /* ChartboostPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30133CC1191A415A00328863 /* ChartboostPlugin.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4E253B4166D6FB300DCDC2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		30133CC0191A415A00328863 /* ChartboostPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartboostPlugin.h; path = Plugin/ChartboostPlugin.h; sourceTree = "<group>"; };
+		30133CC1191A415A00328863 /* ChartboostPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ChartboostPlugin.mm; path = Plugin/ChartboostPlugin.mm; sourceTree = "<group>"; };
+		30BAFBCE1950F4E200695266 /* CBMoreAppsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMoreAppsButton.h; sourceTree = "<group>"; };
+		30BAFBCF1950F4E200695266 /* CBNewsfeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBNewsfeed.h; sourceTree = "<group>"; };
+		30BAFBD01950F4E200695266 /* CBNewsfeedUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBNewsfeedUI.h; sourceTree = "<group>"; };
+		30BAFBD11950F4E200695266 /* CBPostInstallAnalyticsTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPostInstallAnalyticsTracker.h; sourceTree = "<group>"; };
+		30BAFBD21950F4E200695266 /* CBStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBStory.h; sourceTree = "<group>"; };
+		30BAFBD31950F4E200695266 /* Chartboost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartboost.h; sourceTree = "<group>"; };
+		30BAFBD41950F4E200695266 /* libChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libChartboost.a; sourceTree = "<group>"; };
+		A4E253B6166D6FB300DCDC2C /* libchartboostLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libchartboostLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E253B3166D6FB300DCDC2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30BAFBCD1950F4E200695266 /* Chartboost */ = {
+			isa = PBXGroup;
+			children = (
+				30BAFBCE1950F4E200695266 /* CBMoreAppsButton.h */,
+				30BAFBCF1950F4E200695266 /* CBNewsfeed.h */,
+				30BAFBD01950F4E200695266 /* CBNewsfeedUI.h */,
+				30BAFBD11950F4E200695266 /* CBPostInstallAnalyticsTracker.h */,
+				30BAFBD21950F4E200695266 /* CBStory.h */,
+				30BAFBD31950F4E200695266 /* Chartboost.h */,
+				30BAFBD41950F4E200695266 /* libChartboost.a */,
+			);
+			path = Chartboost;
+			sourceTree = SOURCE_ROOT;
+		};
+		A447B609165D72A6009EA762 /* Plugin Library */ = {
+			isa = PBXGroup;
+			children = (
+				30133CC0191A415A00328863 /* ChartboostPlugin.h */,
+				30133CC1191A415A00328863 /* ChartboostPlugin.mm */,
+			);
+			name = "Plugin Library";
+			sourceTree = "<group>";
+		};
+		A484110E15114F700074BD57 = {
+			isa = PBXGroup;
+			children = (
+				30BAFBCD1950F4E200695266 /* Chartboost */,
+				A447B609165D72A6009EA762 /* Plugin Library */,
+				A484111A15114F700074BD57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A484111A15114F700074BD57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E253B6166D6FB300DCDC2C /* libchartboostLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E253B5166D6FB300DCDC2C /* chartboostLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "chartboostLibrary" */;
+			buildPhases = (
+				A4E253B2166D6FB300DCDC2C /* Sources */,
+				A4E253B3166D6FB300DCDC2C /* Frameworks */,
+				A4E253B4166D6FB300DCDC2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chartboostLibrary;
+			productName = plugin_library;
+			productReference = A4E253B6166D6FB300DCDC2C /* libchartboostLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A484111015114F700074BD57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = A484111315114F700074BD57 /* Build configuration list for PBXProject "Plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A484110E15114F700074BD57;
+			productRefGroup = A484111A15114F700074BD57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E253B5166D6FB300DCDC2C /* chartboostLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E253B2166D6FB300DCDC2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30133CC2191A415A00328863 /* ChartboostPlugin.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A484114015114F700074BD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
+			};
+			name = Debug;
+		};
+		A484114115114F700074BD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E253C0166D6FB300DCDC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					armv7s,
+				);
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/plugin_library.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Danny/Desktop/Plugin_Template/Plugin-Source/ios/Test",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Chartboost",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona $(SRCROO)/Chartboost";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		A4E253C1166D6FB300DCDC2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					armv7s,
+				);
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/plugin_library.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Danny/Desktop/Plugin_Template/Plugin-Source/ios/Test",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Chartboost",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona $(SRCROO)/Chartboost";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A484111315114F700074BD57 /* Build configuration list for PBXProject "Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A484114015114F700074BD57 /* Debug */,
+				A484114115114F700074BD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "chartboostLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E253C0166D6FB300DCDC2C /* Debug */,
+				A4E253C1166D6FB300DCDC2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A484111015114F700074BD57 /* Project object */;
+}

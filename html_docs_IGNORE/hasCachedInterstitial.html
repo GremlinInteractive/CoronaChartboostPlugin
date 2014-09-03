@@ -1,0 +1,28 @@
+<h4>Overview</h4>
+
+<p>Returns whether an Ad is cached or not.</p>
+
+<h2>Syntax</h2>
+
+`````
+chartboost.hasCachedInterstitial( location )
+`````
+
+<p>This function takes one or zero arguments:</p>
+
+<h5>
+namedLocation - (optional)
+</h5>
+
+<p>
+<em><a href="">String</a>.</em> The named location of the Interstitial. If omitted, this will return whether or not the default Interstitial location is cached or not.
+</p>
+ 
+
+<b><h4>Example</h4></b>
+
+	-- Require the Chartboost library
+	local chartboost = require( "plugin.chartboost" )
+
+	-- Is the default interstitial cached?
+	print( "Has cached interstitial: " .. chartboost.hasCachedInterstitial() );

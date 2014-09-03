@@ -1,0 +1,51 @@
+<h4>Overview</h4>
+
+<p>Starts a Chartboost session.</p>
+
+Notes: Chartboost recommend that you call this method on every application resume event.
+
+<h2>Syntax</h2>
+
+`````
+chartboost.startSession( appId, appSignature )
+`````
+
+<p>This function takes two arguments:</p>
+
+<h5>
+    appID - (required)
+  </h5>
+  
+  <p>
+    <em><a href="">String</a>.</em> Your Chartboost app ID. You can get your app ID from the <a href="https://www.chartboost.com"></a>Chartboost website.
+  </p>
+  
+  <h5>
+    appSignature - (required)
+  </h5>
+  
+  <p>
+    <em><a href="">String</a>.</em> Your Chartboost app signature. You can get your app signature from the <a href="https://www.chartboost.com"></a>Chartboost website.
+  </p>
+
+<b><h4>Example</h4></b>
+
+  -- Require the Chartboost library
+  local chartboost = require( "plugin.chartboost" )
+
+  local yourAppID = "your_CB_app_id_here"
+  local yourAppSignature = "your_CB_app_signature_here"
+
+  local function systemEvent( event )
+  	local phase = event.phase;
+
+  	if event.type == 'applicationResume' then
+  	    -- Start a ChartBoost session
+  	    chartboost.startSession( yourAppID, yourAppSignature );
+  	end
+  	
+  	return true
+  end
+
+  -- Add the system listener
+  Runtime:addEventListener( 'system', systemEvent );
