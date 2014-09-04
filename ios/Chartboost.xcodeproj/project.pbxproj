@@ -543,10 +543,7 @@
 				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\\\\\"$(SRCROOT)/CoronaEnterprise/Plugins/sdk-facebook/ios\\\\\\\"",
-					"/Users/Danny/Desktop/Plugin_Template/Plugin-Source/ios",
-					/Users/Danny/Documents/FacebookSDK,
-					"/Users/Danny/Desktop/Plugin_Template/Plugin-Source/ios/Test",
+					"$(SRCROOT)/CoronaEnterprise/Plugins/sdk-facebook/ios",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
@@ -556,12 +553,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\\\\\"$(SRCROOT)/CoronaEnterprise/Corona/ios/lib\\\\\\\"",
-					"/Users/Danny/Desktop/PayPal-iOS-SDK-master/PayPalMobile",
+					"$(SRCROOT)/CoronaEnterprise/Corona/ios/lib",
 					"$(SYSTEM_APPS_DIR)/CoronaEnterprise/Corona/ios/lib",
-					/Users/Danny/Programming/Projects/Gremlin_Interactive/Corona_Plugins/Paypal/Plugin_Source/ios,
 					"$(PROJECT_DIR)/Chartboost",
-					"$(PROJECT_DIR)/GremlinLicensing",
 				);
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -583,10 +577,7 @@
 				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\\\\\"$(SRCROOT)/CoronaEnterprise/Plugins/sdk-facebook/ios\\\\\\\"",
-					"/Users/Danny/Desktop/Plugin_Template/Plugin-Source/ios",
-					/Users/Danny/Documents/FacebookSDK,
-					"/Users/Danny/Desktop/Plugin_Template/Plugin-Source/ios/Test",
+					"$(SRCROOT)/CoronaEnterprise/Plugins/sdk-facebook/ios",
 				);
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -596,12 +587,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\\\\\"$(SRCROOT)/CoronaEnterprise/Corona/ios/lib\\\\\\\"",
-					"/Users/Danny/Desktop/PayPal-iOS-SDK-master/PayPalMobile",
+					"$(SRCROOT)/CoronaEnterprise/Corona/ios/lib",
 					"$(SYSTEM_APPS_DIR)/CoronaEnterprise/Corona/ios/lib",
-					/Users/Danny/Programming/Projects/Gremlin_Interactive/Corona_Plugins/Paypal/Plugin_Source/ios,
 					"$(PROJECT_DIR)/Chartboost",
-					"$(PROJECT_DIR)/GremlinLicensing",
 				);
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
